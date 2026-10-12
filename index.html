@@ -371,50 +371,110 @@
 
 
 <footer>
-    <div class="container">
-        Independent Technical Services | Windows Server | Linux | AWS
-    </div>
+    
 </footer>
 <section id="work-samples" style="padding: 60px 20px; background: #0f172a; color: #ffffff; text-align: center;">
-    <div style="max-width: 1000px; margin: auto;">
+    <div style="max-width: 1100px; margin: auto;">
+
         <h2 style="font-size: 32px; margin-bottom: 15px;">Technical Work Samples</h2>
-        <p style="color: #cbd5e1; margin-bottom: 35px;">
-            Explore examples of server troubleshooting, infrastructure administration,
-            and cloud technology projects.
+
+        <p style="color: #cbd5e1; margin-bottom: 40px;">
+            Explore examples of server administration, troubleshooting,
+            directory services, and cloud infrastructure.
         </p>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+        <!-- AWS -->
+        <div style="margin-bottom: 45px;">
+            <h3 style="color: #38bdf8;">AWS Infrastructure</h3>
 
-            <div style="padding: 25px; border: 1px solid #334155; border-radius: 10px;">
-                <h3 style="color: #38bdf8;">AWS Infrastructure</h3>
-                <p>Cloud infrastructure and troubleshooting.</p>
-                <a href="samples/AWS%20PDF.pdf" target="_blank" rel="noopener noreferrer"
-                   style="color: #38bdf8;">View PDF Sample →</a>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+
+                <a href="samples/AWS%20EC2s.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/AWS%20EC2s.png" alt="AWS EC2 instances" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+                <a href="samples/FSx.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/FSx.png" alt="AWS FSx infrastructure" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+                <a href="samples/VPC.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/VPC.png" alt="AWS VPC infrastructure" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
             </div>
 
-            <div style="padding: 25px; border: 1px solid #334155; border-radius: 10px;">
-                <h3 style="color: #38bdf8;">Active Directory</h3>
-                <p>Directory services troubleshooting.</p>
-               <a href="samples/Active%20Directory%20Troubleshootng.pdf" target="_blank" rel="noopener noreferrer"
-               style="color: #38bdf8;">View PDF Sample →</a>
-            </div>
-
-            <div style="padding: 25px; border: 1px solid #334155; border-radius: 10px;">
-                <h3 style="color: #38bdf8;">Linux Server Administration</h3>
-                <p>Linux server troubleshooting and administration.</p>
-                <a href="samples/Linux%20Troubleshooting.pdf" target="_blank" rel="noopener noreferrer"
-                   style="color: #38bdf8;">View PDF Sample →</a>
-            </div>
-
-            <div style="padding: 25px; border: 1px solid #334155; border-radius: 10px;">
-                <h3 style="color: #38bdf8;">Windows Server</h3>
-                <p>Server infrastructure troubleshooting.</p>
-               <a href="samples/Windows%20Server%20infrastructure%20troubleshootng%20report.pdf" target="_blank" rel="noopener noreferrer"
-               style="color: #38bdf8;">View PDF Sample →</a>
-            </div>
-
+            <p>
+                <a href="samples/AWS%20PDF.pdf" target="_blank" rel="noopener noreferrer" style="color: #38bdf8;">View AWS PDF Report →</a>
+            </p>
         </div>
+
+        <!-- Active Directory -->
+        <div style="margin-bottom: 45px;">
+            <h3 style="color: #38bdf8;">Active Directory</h3>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+
+                <a href="samples/Active%20Directory.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/Active%20Directory.png" alt="Active Directory administration" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+                <a href="samples/group%20policy.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/group%20policy.png" alt="Group Policy configuration" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+            </div>
+
+            <p>
+                <a href="samples/Active%20Directory%20Troubleshootng.pdf" target="_blank" rel="noopener noreferrer" style="color: #38bdf8;">View Active Directory PDF →</a>
+            </p>
+        </div>
+
+        <!-- Windows Server -->
+        <div style="margin-bottom: 45px;">
+            <h3 style="color: #38bdf8;">Windows Server</h3>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+
+                <a href="samples/event%20viewer.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/event%20viewer.png" alt="Windows Event Viewer" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+                <a href="samples/server%20manager.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/server%20manager.png" alt="Windows Server Manager" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+            </div>
+
+            <p>
+                <a href="samples/Windows%20Server%20infrastructure%20troubleshootng%20report.pdf" target="_blank" rel="noopener noreferrer" style="color: #38bdf8;">View Windows Server PDF →</a>
+            </p>
+        </div>
+
+        <!-- Linux -->
+        <div style="margin-bottom: 45px;">
+            <h3 style="color: #38bdf8;">Linux Server Administration</h3>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+
+                <a href="samples/systemctl%20status.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/systemctl%20status.png" alt="Linux systemctl status output" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+                <a href="samples/log%20file.png" target="_blank" rel="noopener noreferrer">
+                    <img src="samples/log%20file.png" alt="Linux log file troubleshooting" style="width: 100%; max-height: 200px; object-fit: contain;">
+                </a>
+
+            </div>
+
+            <p>
+                <a href="samples/Linux%20Troubleshooting.pdf" target="_blank" rel="noopener noreferrer" style="color: #38bdf8;">View Linux PDF →</a>
+            </p>
+        </div>
+
+        <div class="container">
+        Independent Technical Services | Windows Server | Linux | AWS
+    </div>
+
     </div>
 </section>
-</body>
 </html>
