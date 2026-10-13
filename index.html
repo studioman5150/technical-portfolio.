@@ -204,6 +204,41 @@
                 font-size: 27px;
             }
         }
+                .hero-layout {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 44px;
+        }
+
+        .hero-copy {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .profile-photo {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            border: 3px solid #58b7ff;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 760px) {
+            .hero-layout {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+                gap: 26px;
+            }
+
+            .profile-photo {
+                width: 160px;
+                height: 160px;
+            }
+        }
     </style>
 </head>
 
@@ -225,26 +260,36 @@
 
 <main>
 
-    <section class="hero">
-        <div class="container">
+        <section class="hero">
+        <div class="container hero-layout">
 
-            <div class="eyebrow">Independent Technical Services</div>
+            <div class="hero-copy">
 
-            <h1>Practical Solutions for Server and Cloud Infrastructure</h1>
+                <div class="eyebrow">Independent Technical Services</div>
 
-            <p>
-                Technical troubleshooting, configuration, and infrastructure
-                setup for Windows Server, Active Directory, Linux, and AWS.
-                Available for clearly defined technical projects.
-            </p>
+                <h1>Practical Solutions for Server and Cloud Infrastructure</h1>
 
-            <a class="button primary" href="#contact">
-                Discuss a Project
-            </a>
+                <p>
+                    Technical troubleshooting, configuration, and infrastructure
+                    setup for Windows Server, Active Directory, Linux, and AWS.
+                    Available for clearly defined technical projects.
+                </p>
 
-            <a class="button secondary" href="#services">
-                Explore Services
-            </a>
+                <a class="button primary" href="#contact">
+                    Discuss a Project
+                </a>
+
+                <a class="button secondary" href="#services">
+                    Explore Services
+                </a>
+
+            </div>
+
+            <img
+                class="profile-photo"
+                src="me.casual%202.png"
+                alt="My profile photo"
+            >
 
         </div>
     </section>
